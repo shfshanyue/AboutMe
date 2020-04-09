@@ -18,11 +18,11 @@
 
 ## 简述
 
-在公司负责一条业务线的日常开发维护(七人团队)，用户反馈及迭代更新。曾全权负责(从立项到上线)了一个后端项目，两个小程序，三个前端项目及一个 SSR 项目，目前也在持续维护多个后端和多个前端项目，也曾与其他同事共同维护一个 flutter 项目。另外早期也会用 scrapy 做一些爬虫。
+在公司负责一条业务线的日常开发维护(七人团队)，用户反馈及迭代更新。曾全权负责(从立项到上线)了一个后端项目，两个小程序，三个前端项目及一个 SSR 项目，目前也在持续维护多个后端和多个前端项目，并把一个后端整改成 graphql，也曾与其他同事共同维护一个 flutter 项目。另外早期也会用 scrapy 做一些爬虫。
 
-除了负责业务外，早期也负责整个测试环境的维护以及现在的 k8s 集群维护。关于公司测试环境服务器的搭建，我对其基础服务进行了抽象与改进，并搭建在了自己的服务器，方便试错及测试，详情可参考文档 [当我有一台服务器时我做了什么](https://shanyue.tech/post/server-todo/)。另外我的博客 <https://shanyue.tech> 也会记录自己一些关于技术的思考
+除了负责业务外，早期也负责整个测试环境的维护以及现在的 k8s 集群维护。关于公司测试环境服务器的搭建，我对其基础服务进行了抽象与改进，并搭建在了自己的服务器，方便试错及测试， **如我的服务器模拟公司的基础服务，独立部署了 consul/elk/gitlab/prometheus/grafana/docker/k8s**。
 
-这里有我的一些系列文章：
+另外我的博客 <https://shanyue.tech> 也会记录自己一些关于技术的思考，这里有我的一些系列文章：
 
 + [高级前端进阶系列](https://shanyue.tech/frontend-engineering/)
 + [flutter 笔记](https://shanyue.tech/flutter-guide/)
@@ -35,8 +35,8 @@
 ### As a maintainer
 
 + [shfshanyue/cls-session (npm)](https://github.com/shfshanyue/cls-session): Node CLS 的实现，并避免了 Promise 在 async_hooks 中内存泄漏问题
++ [shfshanyue/serverless-template-zh (serverless)](https://github.com/shfshanyue/serverless-template-zh): 中国云厂商 serverless framework 模板及示例 （更快的访问速度）
 + [shfshanyue/ansible-op (ansible role)](https://github.com/shfshanyue/ansible-op): 个人服务器运维脚本
-+ [shfshanyue/serverless-template-zh (sls)](https://github.com/shfshanyue/serverless-template-zh): 中国云厂商 serverless framework 模板及示例 （更快的访问速度）
 + [shfshanyue/apollo-server-starter (graphql template)](https://github.com/shfshanyue/apollo-server-starter): 基于 apollo-server 的 graphql 后端脚手架
 + [shfshanyue/vim-config](https://github.com/shfshanyue/vim-config): vim config
 + [shfshanyue/tmux-config](https://github.com/shfshanyue/tmux-config): tmux config
@@ -47,6 +47,8 @@
 + [git-tips/tips](https://github.com/git-tips/tips/graphs/contributors): 关于 git 的几个小技巧
 
 ## Side Project
+
+> 我自己的应用大多部署在我自建的服务器，serverless (微信公众号开发)以及阿里云的 OSS (纯前端)上。
 
 + [shfshanyue/2019-ncov (Star 466)](https://github.com/shfshanyue/2019-ncov): 全国新型冠状病毒，肺炎疫情实时省市地图， **单日 PV 最高48万** <https://ncov.shanyue.tech/>
 + [shfshanyue/tomato](https://github.com/shfshanyue/tomato): 基于 vue 与 cordova 的番茄闹钟APP
